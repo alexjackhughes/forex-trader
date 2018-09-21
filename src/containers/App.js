@@ -19,15 +19,18 @@ class App extends Component {
 
   render() {
     return (
-      <div class="container">
+      <div className="container">
         <header>
           <nav>
             <div id="logo">
               <strong>FOREX TRADER</strong>
             </div>
           </nav>
-          <button onClick={() => this.props.getData()} class="refresh-button">
-            <strong>COMPARED TO €</strong>
+          <button
+            onClick={() => this.props.getData()}
+            className="refresh-button"
+          >
+            COMPARED TO €
           </button>
         </header>
         <CurrencyList
@@ -35,7 +38,7 @@ class App extends Component {
         />
         <footer>
           <nav>
-            <div class="siteinfo">
+            <div className="siteinfo">
               Made with love by{" "}
               <a href="https://medium.com/@alexjackhughes/">
                 <strong>Alex Hughes</strong>
