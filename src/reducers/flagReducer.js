@@ -477,8 +477,8 @@ const initialState = {
       name: "	Paraguayan Guarani"
     },
     QAR: {
-      flag: "Qatari Riyal",
-      name: "Dutch Guilder"
+      flag: "https://image.flaticon.com/icons/svg/580/580992.svg",
+      name: "Qatari Riyal"
     },
     RON: {
       flag: "https://image.flaticon.com/icons/svg/330/330576.svg",
@@ -497,7 +497,7 @@ const initialState = {
       name: "Rwandan Franc"
     },
     SAR: {
-      flag: "",
+      flag: "https://image.flaticon.com/icons/svg/330/330552.svg",
       name: "Saudi Arabian Riyal"
     },
     SBD: {
