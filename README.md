@@ -8,7 +8,7 @@ It's a very simple app that calls an open source API for the current prices of
 currencies and and a few commodities, and displays their current price as
 compared to the Euro in a nice way that also uses a cool flag for each country.
 
-You can see a live demo [here](https://forex-mggnaleogj.now.sh/).
+You can see a live demo [here](https://forex-mycfnqvdyu.now.sh).
 
 ## Getting Started
 

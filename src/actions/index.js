@@ -13,11 +13,10 @@ export function fetchCurrencies() {
         // And providing `response` and `body` variables to the next chain.
         .then(response => response.json().then(body => ({ response, body })))
         .then(({ response, body }) => {
-          if (!response.ok) {
+          if (!body.success) {
             // If request was failed, dispatching FAILURE action.
             dispatch({
-              type: "FETCH_CURRENCIES_FAILURE",
-              error: body.error
+              type: "FETCH_CURRENCIES_FAILURE"
             });
           } else {
             // When everything is ok, dispatching SUCCESS action.

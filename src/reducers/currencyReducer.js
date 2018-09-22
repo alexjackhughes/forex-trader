@@ -186,7 +186,7 @@ export default (state = initialState, action) => {
       };
 
     case "FETCH_CURRENCIES_FAILURE":
-      console.log("Failure" + action.error);
+      console.log("Failure ");
       return state;
 
     default:
