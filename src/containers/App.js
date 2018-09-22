@@ -30,7 +30,7 @@ class App extends Component {
             onClick={() => this.props.getData()}
             className="refresh-button"
           >
-            COMPARED TO €
+            <strong>COMPARED TO €</strong>
           </button>
         </header>
         <CurrencyList
